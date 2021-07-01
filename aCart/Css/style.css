@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+header{
+    background-color:#2874f0;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.logo img{
+    width: 70px;
+    margin-top: 2px;
+    overflow: scroll;
+}
+.logo{
+    margin-right: 15px;
+}
+.search input{
+    width: 495px;
+    height: 27px;
+    border-radius: 2px;
+    margin:0 16px 0 55px ;
+}
+.container1{
+    height: 350px;
+    width: 100vw;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    
+}
+#b1{
+    height: 350px;
+    width: 500px;
+}
+#right{
+    height: 70px;
+    margin-left: 40px;
+    padding: 137px 0 0 20px;
+    cursor: pointer;
+}
+#left{
+    height: 70px;
+    margin-right: 40px;
+    padding: 137px 20px 0 0;
+    cursor: pointer;
+}
+.container2{
+    min-height: calc(120vh - 350px - 58px - 10vh);
+    margin-top: 12px;
+}
+.container2 h2{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    padding-left: 10px;
+    color: #2874f0;
+}
+.slider{
+    display: flex;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+
+#footpara{
+    font-family: 'Yellowtail', cursive;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
